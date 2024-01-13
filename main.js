@@ -84,7 +84,7 @@ function getrandomnameswhithapi(){
       document.getElementById("img").src = `${response.results[0].picture.large}`
       document.getElementById("username").innerHTML = `Full Name : ${response.results[0].name.title} ` + ` ${response.results[0].name.first} ` + ` ${response.results[0].name.last}`
       document.getElementById("gender").innerHTML = `Gedner : ${response.results[0].gender}`   
-      document.getElementById("gmail").innerHTML = `Gmail : ${response.results[0].login.username}@gamil.com`   
+      document.getElementById("gmail").innerHTML = `Gmail : ${response.results[0].login.username}@gmail.com`   
       document.getElementById("contry").innerHTML = `Contry : ${response.results[0].location.country}`   
       document.getElementById("Age").innerHTML= `Age : ${response.results[0].dob.age}`   
       document.getElementById("usernameId").innerHTML=`UsernNameId: ${response.results[0].login.uuid}`   
