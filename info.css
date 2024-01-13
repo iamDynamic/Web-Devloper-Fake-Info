@@ -4,16 +4,18 @@
     align-items: center;
 }
 .allinfo{
-    text-transform: capitalize;
     margin-top: 20px;
 }
 #img{
-   width: 100px;
+    width: 100px;
 }
 #username{
+    text-transform: capitalize;
    margin-top: 20px;
 }
 #gender{
+    text-transform: capitalize;
+
     margin-top: 20px;
 
 }
@@ -23,16 +25,19 @@
 }
 
 #contry{
+    text-transform: capitalize;
     margin-top: 20px;
 
 }
 #Age{
     margin-top: 20px;
-
+    text-transform: capitalize;
+    
 }
 #usernameId{
     margin-top: 20px;
-
+    text-transform: capitalize;
+        
 }
 @media (max-width:467px) {
     #gmail,

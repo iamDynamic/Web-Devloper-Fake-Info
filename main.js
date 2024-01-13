@@ -94,7 +94,7 @@ function getrandomnameswhithapi(){
       console.log(`Gedner =>    ${response.results[0].gender}`)
       console.log(`Full Name => ${response.results[0].name.title} ` + ` ${response.results[0].name.first} ` + ` ${response.results[0].name.last}`)
       console.log(`UserName Id =>${response.results[0].login.uuid}`)
-      console.log(`Gmail =>      ${response.results[0].login.username}@gamil.com`)
+      console.log(`Gmail =>      ${response.results[0].login.username}@gmail.com`)
       console.log(`Age => ${response.results[0].dob.age}`)
       console.log(`Contry => ${response.results[0].location.country}`)
       } 
